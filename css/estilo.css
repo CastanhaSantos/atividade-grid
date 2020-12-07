@@ -1,0 +1,82 @@
+@import url ('https://fonts.googleapis.com/css2? family = Abrir + Sans & display = swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+html body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #A8F0E7;
+}
+
+.envelope{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 40vh 30vh 10vh;
+    grid-template-areas: "h h"
+                        "se a"
+                        "ar as"
+                        "f f";
+    grid-gap: 10px;
+}
+header{
+    background: #5FEDDA;
+    grid-area: h;
+}
+section{
+    background: #2C6E65;
+    grid-area: se;
+}
+aside{
+    background: #4D6E69;
+    grid-area: a;
+}
+.teste{
+    background: #2C6E65;
+    grid-area: as;
+}
+article{
+    background: #4D6E69;
+    grid-area: ar;
+}
+footer{
+    background: darkturquoise;
+    grid-area: f;
+}
+.envelope a{
+    text-decoration: none;
+    
+}
+.envelope ul{
+    list-style: none;
+
+}
+.logo{
+    text-align: center;
+}
+.menu{
+    text-align: center;
+
+    }
+.menu nav ul li{
+    display: inline;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.menu li a{
+    text-transform: uppercase;
+    padding-top: 10px 15px;
+    border-radius: 3px;
+}
+.menu li a:hover{
+    text-decoration: none;
+    background: black;
+    color: blanchedalmond;
+}
+img{
+    max-width: 220px;
+    height: 170px;
+    }
+footer{
+    text-align: center;
+}
